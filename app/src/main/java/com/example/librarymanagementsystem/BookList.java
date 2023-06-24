@@ -122,4 +122,9 @@ public class BookList extends AppCompatActivity {
         });
 
     }
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        BookList.this.finish();
+    }
 }
