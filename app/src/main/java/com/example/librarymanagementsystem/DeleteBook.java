@@ -117,4 +117,10 @@ public class DeleteBook extends AppCompatActivity {
         });
 
     }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        DeleteBook.this.finish();
+    }
 }

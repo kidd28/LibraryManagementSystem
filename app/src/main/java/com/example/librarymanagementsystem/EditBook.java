@@ -118,4 +118,9 @@ public class EditBook extends AppCompatActivity {
         });
 
     }
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        EditBook.this.finish();
+    }
 }

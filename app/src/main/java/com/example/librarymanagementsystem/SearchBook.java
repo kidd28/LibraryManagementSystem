@@ -81,4 +81,9 @@ Button btn;
             }
         });
     }
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        SearchBook.this.finish();
+    }
 }

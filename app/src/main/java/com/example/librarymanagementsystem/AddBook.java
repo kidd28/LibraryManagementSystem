@@ -78,4 +78,9 @@ public class AddBook extends AppCompatActivity {
 
 
     }
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        AddBook.this.finish();
+    }
 }

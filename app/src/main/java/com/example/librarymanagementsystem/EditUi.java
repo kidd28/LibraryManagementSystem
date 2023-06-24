@@ -74,4 +74,9 @@ public class EditUi extends AppCompatActivity {
         });
 
     }
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        EditUi.this.finish();
+    }
 }
